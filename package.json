@@ -1,0 +1,31 @@
+{
+  "name": "vdt-season1-marvel-api-main",
+  "version": "1.0.0",
+  "description": "projeto de automação na API da Marvel viver de  teste",
+  "main": "index.js",
+  "scripts": {
+    "back2thepast": "sh ./back2thepast.sh",
+    "test": "npm run back2thepast && npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paulinrs/viver-em-teste-CY.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Paulo Roberto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulinrs/viver-em-teste-CY/issues"
+  },
+  "homepage": "https://github.com/paulinrs/viver-em-teste-CY#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@bahmutov/cy-api": "^2.1.3",
+    "cypress": "^9.7.0",
+    "D": "^1.0.0"
+  }
+}
